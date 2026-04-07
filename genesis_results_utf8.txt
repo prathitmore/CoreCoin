@@ -1,0 +1,61 @@
+﻿
+--- MINING Mainnet ---
+  Mainnet: 120000 nonces checked (6.32s, rate: 18978.3/s)
+  Mainnet: 240000 nonces checked (12.69s, rate: 18919.3/s)
+  Mainnet: 360000 nonces checked (19.03s, rate: 18922.2/s)
+  Mainnet: 480000 nonces checked (25.37s, rate: 18920.8/s)
+  Mainnet: 600000 nonces checked (32.67s, rate: 18366.8/s)
+  Mainnet: 720000 nonces checked (38.99s, rate: 18465.9/s)
+  Mainnet: 840000 nonces checked (45.42s, rate: 18492.9/s)
+  Mainnet: 960000 nonces checked (51.74s, rate: 18555.2/s)
+  Mainnet: 1080000 nonces checked (58.04s, rate: 18609.0/s)
+  Mainnet: 1200000 nonces checked (64.37s, rate: 18641.2/s)
+  Mainnet: 1320000 nonces checked (70.65s, rate: 18683.0/s)
+  Mainnet: 1440000 nonces checked (77.05s, rate: 18690.0/s)
+  Mainnet: 1560000 nonces checked (83.33s, rate: 18721.6/s)
+  Mainnet: 1680000 nonces checked (89.66s, rate: 18736.6/s)
+  Mainnet: 1800000 nonces checked (96.00s, rate: 18750.7/s)
+  Mainnet: 1920000 nonces checked (102.48s, rate: 18735.2/s)
+  Mainnet: 2040000 nonces checked (108.79s, rate: 18752.4/s)
+  Mainnet: 2160000 nonces checked (115.07s, rate: 18771.2/s)
+  Mainnet: 2280000 nonces checked (121.34s, rate: 18790.8/s)
+  Mainnet: 2400000 nonces checked (127.67s, rate: 18798.6/s)
+  Mainnet: 2520000 nonces checked (133.95s, rate: 18813.2/s)
+  Mainnet: 2640000 nonces checked (140.21s, rate: 18828.8/s)
+  Mainnet: 2760000 nonces checked (146.48s, rate: 18842.8/s)
+  Mainnet: 2880000 nonces checked (152.85s, rate: 18842.0/s)
+  Mainnet: 3000000 nonces checked (159.16s, rate: 18848.7/s)
+  Mainnet: 3120000 nonces checked (165.47s, rate: 18855.7/s)
+  Mainnet: 3240000 nonces checked (171.77s, rate: 18862.0/s)
+  Mainnet: 3360000 nonces checked (178.16s, rate: 18859.6/s)
+  Mainnet: 3480000 nonces checked (184.47s, rate: 18864.6/s)
+  Mainnet: 3600000 nonces checked (190.78s, rate: 18869.8/s)
+  Mainnet: 3720000 nonces checked (197.08s, rate: 18875.7/s)
+  Mainnet: 3840000 nonces checked (203.37s, rate: 18881.8/s)
+  Mainnet: 3960000 nonces checked (209.70s, rate: 18883.8/s)
+  Mainnet: 4080000 nonces checked (216.13s, rate: 18877.4/s)
+  Mainnet: 4200000 nonces checked (222.48s, rate: 18877.9/s)
+  Mainnet: 4320000 nonces checked (228.81s, rate: 18880.5/s)
+Name: Mainnet
+Timestamp: 1774947254
+Nonce: 4343917
+Bits: 0x1e0ffff0
+Merkle Root: 47a230f24ea289a8f8d0634c2701d2554f787bfd9bf76105392ecba15ef70f4e
+Genesis Hash (SHA256): 25f035a74ef1d4b89f7297f81ab7125dc9830c6f9ad440935442cf4c18cca5ab
+Genesis Hash (Scrypt): 00000f01d7e42b9cc222eaee109c996a02792b715e9f436acf9d6a8159e3fda0
+Total time: 232.07s
+
+--- MINING Testnet ---
+  Testnet: 120000 nonces checked (6.26s, rate: 19159.6/s)
+  Testnet: 240000 nonces checked (12.58s, rate: 19075.8/s)
+  Testnet: 360000 nonces checked (18.93s, rate: 19020.6/s)
+  Testnet: 480000 nonces checked (25.19s, rate: 19057.0/s)
+  Testnet: 600000 nonces checked (31.48s, rate: 19062.5/s)
+  Testnet: 720000 nonces checked (37.75s, rate: 19074.4/s)
+  Testnet: 840000 nonces checked (44.10s, rate: 19047.0/s)
+  Testnet: 960000 nonces checked (50.41s, rate: 19042.4/s)
+  Testnet: 1080000 nonces checked (56.71s, rate: 19045.4/s)
+  Testnet: 1200000 nonces checked (62.98s, rate: 19055.1/s)
+  Testnet: 1320000 nonces checked (70.35s, rate: 18762.0/s)
+  Testnet: 1440000 nonces checked (77.67s, rate: 18538.8/s)
+  Testnet: 1560000 nonces checked (85.20s, rate: 18310.3/s)
