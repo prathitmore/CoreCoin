@@ -370,6 +370,8 @@ QString TransactionTableModel::formatTxType(const WalletTxRecord *wtx) const
     case WalletTxRecord::SendToSelf:
         return tr("Payment to yourself");
     case WalletTxRecord::Generated:
+        if (wtx->GetNet() == 15000000000LL) return tr("Jackpot!");
+        if (wtx->GetNet() == 7500000000LL) return tr("Mid Reward");
         return tr("Mined");
     default:
         return QString();

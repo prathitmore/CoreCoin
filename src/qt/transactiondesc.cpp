@@ -145,7 +145,11 @@ QString TransactionDesc::toHTML_Addresses(interfaces::Wallet& wallet, const inte
     // From
     //
     if (wtx.is_coinbase) {
-        strHTML += "<b>" + tr("Source") + ":</b> " + tr("Generated") + "<br>";
+        QString type = tr("Generated");
+        if (wtx.credit == 150 * COIN) type = tr("Jackpot Reward!");
+        else if (wtx.credit == 75 * COIN) type = tr("Mid-Tier Reward");
+        else if (wtx.credit == 25 * COIN) type = tr("Base Reward");
+        strHTML += "<b>" + tr("Source") + ":</b> " + type + "<br>";
     } else if (wtx.value_map.count("from") && !wtx.value_map.at("from").empty()) {
         // Online transaction
         strHTML += "<b>" + tr("From") + ":</b> " + GUIUtil::HtmlEscape(wtx.value_map.at("from")) + "<br>";
