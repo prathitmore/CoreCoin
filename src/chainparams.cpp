@@ -104,11 +104,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xe3;
-        pchMessageStart[1] = 0xd2;
-        pchMessageStart[2] = 0xf1;
-        pchMessageStart[3] = 0xdb;
-        nDefaultPort = 19333;
+        pchMessageStart[0] = 0x43;
+        pchMessageStart[1] = 0x4f;
+        pchMessageStart[2] = 0x52;
+        pchMessageStart[3] = 0x45;
+        nDefaultPort = 9777;
         nPruneAfterHeight = 100000;
         m_assumed_blockchain_size = 40;
         m_assumed_chain_state_size = 2;
@@ -126,7 +126,7 @@ public:
         vSeeds.clear(); // Remove Litecoin DNS seeds
         // vSeeds.emplace_back("seed.corecoin.org"); // Placeholder for future seeds
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,28); // 'C' prefix for CoreCoin
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
@@ -204,11 +204,11 @@ public:
         consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000004260a1758f04aa");
         consensus.defaultAssumeValid = uint256S("0x4a280c0e150e3b74ebe19618e6394548c8a39d5549fd9941b9c431c73822fbd5"); // 1737876
 
-        pchMessageStart[0] = 0xf1;
-        pchMessageStart[1] = 0xc2;
-        pchMessageStart[2] = 0xd3;
-        pchMessageStart[3] = 0xe4;
-        nDefaultPort = 29333;
+        pchMessageStart[0] = 0xda;
+        pchMessageStart[1] = 0xdb;
+        pchMessageStart[2] = 0xef;
+        pchMessageStart[3] = 0xdf;
+        nDefaultPort = 19777;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 4;
         m_assumed_chain_state_size = 1;
@@ -221,8 +221,8 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,88); // 'c' prefix
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,188);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,58);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
@@ -299,11 +299,11 @@ public:
         consensus.nMinimumChainWork = uint256{};
         consensus.defaultAssumeValid = uint256{};
 
-        pchMessageStart[0] = 0xaa;
-        pchMessageStart[1] = 0xbb;
-        pchMessageStart[2] = 0xcc;
-        pchMessageStart[3] = 0xdd;
-        nDefaultPort = 39333;
+        pchMessageStart[0] = 0x63;
+        pchMessageStart[1] = 0x6f;
+        pchMessageStart[2] = 0x72;
+        pchMessageStart[3] = 0x65;
+        nDefaultPort = 29777;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 0;
         m_assumed_chain_state_size = 0;
