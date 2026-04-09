@@ -96,8 +96,8 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_MWEB].nStartHeight = 2217600; // End Feb 2022
         consensus.vDeployments[Consensus::DEPLOYMENT_MWEB].nTimeoutHeight = 2427264; // 364 days later
 
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000146878abee06fa883e0a");
-        consensus.defaultAssumeValid = uint256S("0x80cdb35c080484df5bf384b311fde3c4694d3405765bc0f596e9eb369ff286e5"); // 2772730
+        consensus.nMinimumChainWork = uint256S("0x00");
+        consensus.defaultAssumeValid = uint256S("0x25f035a74ef1d4b89f7297f81ab7125dc9830c6f9ad440935442cf4c18cca5ab"); // Genesis Block
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -124,8 +124,7 @@ public:
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
         vSeeds.clear();
-        vSeeds.emplace_back("136.116.228.213"); // Hardcoded Google Cloud Public Seed
-        vSeeds.emplace_back("seed1.corecoin.network"); // Reserved for future DNS
+        // vSeeds.emplace_back("seed1.corecoin.network"); // Reserved for future DNS domain name
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,28); // 'C' prefix for CoreCoin
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
