@@ -144,7 +144,9 @@ public:
         m_is_mockable_chain = false;
 
         checkpointData = {
-            {{ 0, uint256S("0x00") }}
+            {
+                {0, uint256S("0x25f035a74ef1d4b89f7297f81ab7125dc9830c6f9ad440935442cf4c18cca5ab")},
+            }
         };
 
         chainTxData = ChainTxData{
