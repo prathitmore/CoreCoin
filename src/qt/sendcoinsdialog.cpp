@@ -173,7 +173,7 @@ void SendCoinsDialog::setModel(WalletModel *_model)
 
         // MWEB Features
         connect(_model->getOptionsModel(), &OptionsModel::mwebFeaturesChanged, this, &SendCoinsDialog::mwebFeatureChanged);
-        ui->frameMWEBFeatures->setVisible(_model->getOptionsModel()->getMWEBFeatures());
+        ui->frameMWEBFeatures->setVisible(false);
 
         bool mweb_active = model->node().isMWEBActive();
         ui->pushButtonMWEBPegIn->setEnabled(mweb_active);
@@ -1011,7 +1011,7 @@ void SendCoinsDialog::coinControlUpdateLabels()
 // MWEB features: settings menu - MWEB features enabled/disabled by user
 void SendCoinsDialog::mwebFeatureChanged(bool checked)
 {
-    ui->frameMWEBFeatures->setVisible(checked);
+    ui->frameMWEBFeatures->setVisible(false);
 }
 
 // MWEB features: button inputs -> pegin

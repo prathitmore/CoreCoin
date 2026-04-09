@@ -123,8 +123,9 @@ public:
         // This is fine at runtime as we'll fall back to using them as an addrfetch if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.clear(); // Remove Litecoin DNS seeds
-        // vSeeds.emplace_back("seed.corecoin.org"); // Placeholder for future seeds
+        vSeeds.clear();
+        vSeeds.emplace_back("136.116.228.213"); // Hardcoded Google Cloud Public Seed
+        vSeeds.emplace_back("seed1.corecoin.network"); // Reserved for future DNS
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,28); // 'C' prefix for CoreCoin
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -220,6 +221,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
+        vSeeds.emplace_back("127.0.0.1"); // Add local IP for testnet auto-connection
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,88); // 'c' prefix
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,188);
